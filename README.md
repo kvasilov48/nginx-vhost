@@ -16,11 +16,11 @@ Bottom of /etc/nginx/nginx.conf "http {" block should have a line like the follo
 
 
 Example usage as root user:
-# cd /var/www/
-# git clone https://github.com/kvasilov48/nginx-vhost/
-# nano -w nginx-vhost/generate_vhost # To change VHOSTDIR & VHOSTSKEL as necessary
-# chmod +x nginx-vhost/generate_vhost # Make the script executable
-# /var/www/nginx-vhost/generate_vhost # Execute the script, follow prompts to TYPE IN the domain and TYPE IN the IP
+ cd /var/www/
+ git clone https://github.com/kvasilov48/nginx-vhost/
+ nano -w nginx-vhost/generate_vhost # To change VHOSTDIR & VHOSTSKEL as necessary
+ chmod +x nginx-vhost/generate_vhost # Make the script executable
+ /var/www/nginx-vhost/generate_vhost # Execute the script, follow prompts to TYPE IN the domain and TYPE IN the IP
 
 
 Example domain: test.mysite.com
